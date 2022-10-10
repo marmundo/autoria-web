@@ -60,7 +60,7 @@ img{
   }
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:768px) {
   main{
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,13 +70,13 @@ img{
   }
 }
 
-@media screen and (min-width:700px) and (orientation:landscape) {
+@media screen and (min-width:768px) and (orientation:landscape) {
   .news{
-    min-width:300px
+    min-width:200px
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:992px) {
   .news{
     max-width:20%
   }
