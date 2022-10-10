@@ -25,10 +25,10 @@ footer {
 main{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  gap:5px;
 }
 .news {
-  margin:2%;
   border:1px solid #06aa48;
 }
 
@@ -54,30 +54,10 @@ img{
   color: #333;
 }
 
-@media only screen and (orientation:landscape) {
-  header{
-    padding: 2%;
-  }
-}
-
 @media screen and (min-width:768px) {
   main{
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .news{
-    max-width:40%
-  }
-}
-
-@media screen and (min-width:768px) and (orientation:landscape) {
-  .news{
-    min-width:200px
-  }
-}
-
-@media screen and (min-width:992px) {
-  .news{
-    max-width:20%
+    justify-content: space-between;
   }
 }
