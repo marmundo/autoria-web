@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas de Veículos por Vendedor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VENDAS DE VEÍCULOS POR VENDEDOR</h1>
+        <div class="period">Período: 01/01/2022 a 30/06/2022</div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Vendedor/Família/Modelo</th>
+                    <th>Qtd</th>
+                    <th>Custo Gerencial</th>
+                    <th>Venda</th>
+                    <th>Vl.Presente</th>
+                    <th>Juros</th>
+                    <th>Margem</th>
+                    <th>%</th>
+                    <th>Lucro Bruto</th>
+                    <th>Lucro Contábil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- MARIA EDUARDA -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">MARIA EDUARDA (909)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">LINEA (110)</td>
+                    <td class="number">1</td>
+                    <td class="number">61.862,91</td>
+                    <td class="number">60.000,00</td>
+                    <td class="number">59.928,39</td>
+                    <td class="number">0,00</td>
+                    <td class="number negative">-1.934,52</td>
+                    <td class="number negative">-3,23</td>
+                    <td class="number">6.643,43</td>
+                    <td class="number">8.349,16</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">PALIO (RST-171)</td>
+                    <td class="number">1</td>
+                    <td class="number">34.039,69</td>
+                    <td class="number">36.724,00</td>
+                    <td class="number">36.724,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number positive">2.684,31</td>
+                    <td class="number positive">7,31</td>
+                    <td class="number">2.684,31</td>
+                    <td class="number">3.594,18</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">SIENA (172)</td>
+                    <td class="number">1</td>
+                    <td class="number">39.009,14</td>
+                    <td class="number">35.000,00</td>
+                    <td class="number">35.000,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number negative">-4.009,14</td>
+                    <td class="number negative">-11,45</td>
+                    <td class="number negative">-4.009,14</td>
+                    <td class="number negative">-2.004,71</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>3</strong></td>
+                    <td class="number"><strong>134.911,74</strong></td>
+                    <td class="number"><strong>131.724,00</strong></td>
+                    <td class="number"><strong>131.652,39</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number negative"><strong>-3.259,35</strong></td>
+                    <td class="number negative"><strong>-2,48</strong></td>
+                    <td class="number"><strong>5.318,60</strong></td>
+                    <td class="number"><strong>9.938,63</strong></td>
+                </tr>
+
+                <!-- BÁRBARA CARDOSO -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">BÁRBARA CARDOSO (872)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">FIAT ESTRADA</td>
+                    <td class="number">1</td>
+                    <td class="number">45.217,25</td>
+                    <td class="number">44.490,00</td>
+                    <td class="number">44.490,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number negative">-727,25</td>
+                    <td class="number negative">-1,63</td>
+                    <td class="number negative">-727,25</td>
+                    <td class="number positive">114,57</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>1</strong></td>
+                    <td class="number"><strong>45.217,25</strong></td>
+                    <td class="number"><strong>44.490,00</strong></td>
+                    <td class="number"><strong>44.490,00</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number negative"><strong>-727,25</strong></td>
+                    <td class="number negative"><strong>-1,63</strong></td>
+                    <td class="number negative"><strong>-727,25</strong></td>
+                    <td class="number positive"><strong>114,57</strong></td>
+                </tr>
+
+                <!-- FLÁVIA MAIA -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">FLÁVIA MAIA (666)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">PALIO (RST-171)</td>
+                    <td class="number">1</td>
+                    <td class="number">31.631,56</td>
+                    <td class="number">31.005,16</td>
+                    <td class="number">31.005,16</td>
+                    <td class="number">0,00</td>
+                    <td class="number negative">-626,40</td>
+                    <td class="number negative">-2,02</td>
+                    <td class="number negative">-626,40</td>
+                    <td class="number positive">82,18</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>1</strong></td>
+                    <td class="number"><strong>31.631,56</strong></td>
+                    <td class="number"><strong>31.005,16</strong></td>
+                    <td class="number"><strong>31.005,16</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number negative"><strong>-626,40</strong></td>
+                    <td class="number negative"><strong>-2,02</strong></td>
+                    <td class="number negative"><strong>-626,40</strong></td>
+                    <td class="number positive"><strong>82,18</strong></td>
+                </tr>
+
+                <!-- ALEX VITÓRIA -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">ALEX VITÓRIA (003)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">FIAT ESTRADA</td>
+                    <td class="number">1</td>
+                    <td class="number">42.402,27</td>
+                    <td class="number">40.292,00</td>
+                    <td class="number">40.292,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number negative">-2.110,27</td>
+                    <td class="number negative">-5,24</td>
+                    <td class="number negative">-1.707,34</td>
+                    <td class="number negative">-942,32</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>1</strong></td>
+                    <td class="number"><strong>42.402,27</strong></td>
+                    <td class="number"><strong>40.292,00</strong></td>
+                    <td class="number"><strong>40.292,00</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number negative"><strong>-2.110,27</strong></td>
+                    <td class="number negative"><strong>-5,24</strong></td>
+                    <td class="number negative"><strong>-1.707,34</strong></td>
+                    <td class="number negative"><strong>-942,32</strong></td>
+                </tr>
+
+                <!-- IGOR MACHADO -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">IGOR MACHADO (883)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">PALIO (RST-171)</td>
+                    <td class="number">1</td>
+                    <td class="number">21.226,05</td>
+                    <td class="number">23.000,00</td>
+                    <td class="number">23.000,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number positive">1.773,95</td>
+                    <td class="number positive">7,71</td>
+                    <td class="number positive">1.773,95</td>
+                    <td class="number positive">2.373,95</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>1</strong></td>
+                    <td class="number"><strong>21.226,05</strong></td>
+                    <td class="number"><strong>23.000,00</strong></td>
+                    <td class="number"><strong>23.000,00</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number positive"><strong>1.773,95</strong></td>
+                    <td class="number positive"><strong>7,71</strong></td>
+                    <td class="number positive"><strong>1.773,95</strong></td>
+                    <td class="number positive"><strong>2.373,95</strong></td>
+                </tr>
+
+                <!-- JOSÉ ANTÔNIO -->
+                <tr class="vendor-header">
+                    <td class="vendor-name">JOSÉ ANTÔNIO (865)</td>
+                    <td colspan="9"></td>
+                </tr>
+                <tr class="family-row">
+                    <td><em>Família</em></td>
+                    <td>Qtd</td>
+                    <td>Custo Gerencial</td>
+                    <td>Venda</td>
+                    <td>Vl.Presente</td>
+                    <td>Juros</td>
+                    <td>Margem</td>
+                    <td>%</td>
+                    <td>Lucro Bruto</td>
+                    <td>Lucro Contábil</td>
+                </tr>
+                <tr class="vehicle-row">
+                    <td class="vehicle-model">DUCATO (245)</td>
+                    <td class="number">1</td>
+                    <td class="number">87.163,56</td>
+                    <td class="number">88.000,00</td>
+                    <td class="number">88.000,00</td>
+                    <td class="number">0,00</td>
+                    <td class="number positive">836,44</td>
+                    <td class="number positive">0,95</td>
+                    <td class="number positive">836,44</td>
+                    <td class="number positive">836,44</td>
+                </tr>
+                <tr class="total-vendor">
+                    <td><strong>Total do Vendedor:</strong></td>
+                    <td class="number"><strong>1</strong></td>
+                    <td class="number"><strong>87.163,56</strong></td>
+                    <td class="number"><strong>88.000,00</strong></td>
+                    <td class="number"><strong>88.000,00</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number positive"><strong>836,44</strong></td>
+                    <td class="number positive"><strong>0,95</strong></td>
+                    <td class="number positive"><strong>836,44</strong></td>
+                    <td class="number positive"><strong>836,44</strong></td>
+                </tr>
+
+                <!-- TOTAL GERAL -->
+                <tr class="total-general total-row">
+                    <td><strong>Total Geral Líquido</strong></td>
+                    <td class="number"><strong>8</strong></td>
+                    <td class="number"><strong>362.552,43</strong></td>
+                    <td class="number"><strong>358.511,16</strong></td>
+                    <td class="number"><strong>358.439,55</strong></td>
+                    <td class="number"><strong>0,00</strong></td>
+                    <td class="number negative"><strong>-4.112,88</strong></td>
+                    <td class="number negative"><strong>-1,15</strong></td>
+                    <td class="number positive"><strong>4.868,00</strong></td>
+                    <td class="number positive"><strong>12.403,45</strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
